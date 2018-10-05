@@ -1,0 +1,42 @@
+{
+  "name": "graphql-test",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./build/server.js",
+  "scripts": {
+    "tsDev": "tsc --watch",
+    "build": "webpack --progress --color",
+    "dev": "webpack --progress --watch --color"
+  },
+  "author": "Joonas Nousiainen",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^5.x.x",
+    "hapi": "^17.x.x",
+    "hapi-plugin-websocket": "^2.0.12",
+    "inert": "5.x.x",
+    "phaser": "^3.x.x",
+    "react": "^16.x.x",
+    "react-dom": "^16.x.x",
+    "wreck": "^14.1.0"
+  },
+  "devDependencies": {
+    "@types/hapi": "^17.0.17",
+    "@types/dotenv": "^4.0.3",
+    "@types/inert": "^5.1.1",
+    "@types/wreck": "^14.0.0",
+    "babel-core": "6.x.x",
+    "babel-loader": "7.x.x",
+    "babel-polyfill": "6.x.x",
+    "babel-preset-env": "^1.x.x",
+    "babel-preset-react": "6.x.x",
+    "typescript": "^3.0.1",
+    "webpack": "^3.x.x"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  }
+}

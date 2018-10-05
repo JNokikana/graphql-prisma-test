@@ -1,0 +1,7 @@
+type ORJA @pgTable(name: "ORJA") {
+  id: UUID! @unique @pgColumn(name: "ID")
+  IKA: Int
+  MAA: String
+  NIMI: String
+  VASTAANOTTO_PVM: DateTime
+}
