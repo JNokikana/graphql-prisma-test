@@ -1,7 +1,7 @@
-type ORJA @pgTable(name: "ORJA") {
+type TYONTEKIJA @pgTable(name: "TYONTEKIJA") {
   id: UUID! @unique @pgColumn(name: "ID")
   IKA: Int
   MAA: String
   NIMI: String
-  VASTAANOTTO_PVM: DateTime
+  LUONTI_PVM: DateTime
 }
